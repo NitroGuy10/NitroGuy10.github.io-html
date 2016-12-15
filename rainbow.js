@@ -1,15 +1,10 @@
-var i = 0;
 function red() {
-if (i == 0) {
 setTimeout(function(){
     var str = document.getElementById("rainbow").innerHTML;
     var result = str.fontcolor("red");
     document.getElementById("rainbow").innerHTML = result;
-	i = 1;
      }, 1); 
-	 
-}
-}
+}}
 function orange() {
 setTimeout(function(){
     var str = document.getElementById("rainbow").innerHTML;
