@@ -1,18 +1,4 @@
-<html>
-<head>
-<link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
-<link rel="icon" href="favicon1.ico" type="image/x-icon">
-<title>BenJump.com</title>
-<style>
-h1 {
-	font-family: Comic Sans MS, sans-serif;
-	text-align: center;
-}
-</style>
-</head>
-<body>
 
-<script>
 red();
 function red() {
 setTimeout(function(){
@@ -80,11 +66,3 @@ function purple() {
     }, 1000); 
   
 }*/
-</script>
-<h1 id=bj>BenJump.com</h1>
-<center>
-<img src=bj.gif alt="Ben Jumping" />
-</center>
-</body>
-</html>
-<!--http://www.w3schools.com/js/js_timing.asp-->
