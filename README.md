@@ -1,2 +1,2 @@
 # My Site
-Just a website
+Where I mess around with HTML, CSS, and JavaScript
