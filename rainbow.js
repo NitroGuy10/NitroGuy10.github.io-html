@@ -15,12 +15,12 @@ h1 {
 <script>
 red();
 function red() {
-//setTimeout(function(){
+setTimeout(function(){
     var str = document.getElementById("bj").innerHTML;
     var result = str.fontcolor("red");
     document.getElementById("bj").innerHTML = result;
 	color = "orange";
-    // }, 1000); 
+     }, 1); 
 	 
 }
 function orange() {
