@@ -1,4 +1,3 @@
-document.getElementById("it").innerHTML = "iteration 1";
 function red() {
 setTimeout(function(){
     var str = document.getElementById("rainbow").innerHTML;
