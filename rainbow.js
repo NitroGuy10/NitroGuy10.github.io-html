@@ -1,12 +1,13 @@
-(function color() {
+    
+	    (function color() {
 setTimeout(function(){
-    var cycle = 0;
-	if (cycle == 1) {
-		    var str = document.getElementById("rainbow").innerHTML;
+var cycle;
+    var color;
+	if (cycle == 1) {}
+    var str = document.getElementById("rainbow").innerHTML;
     var result = str.fontcolor("red");
     document.getElementById("rainbow").innerHTML = result;
-	}
-
+    cycle = cycle + 1;
      }, 1); 
 })();
 /*function red() {
