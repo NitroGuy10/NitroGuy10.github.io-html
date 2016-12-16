@@ -2,7 +2,7 @@
 var cycle;
 (function it() {
 setTimeout(function(){
-    document.getElementById("it").innerHTML = "cycle";
+    document.getElementById("it").innerHTML = cycle;
     cycle = cycle + 1;
      }, 1); 
 })();
