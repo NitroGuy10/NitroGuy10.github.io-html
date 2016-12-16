@@ -1,4 +1,15 @@
-    
+//iteration
+var cycle;
+(function it() {
+setTimeout(function(){
+    document.getElementById("it").innerHTML = "cycle";
+    cycle = cycle + 1;
+     }, 1); 
+})();
+//version
+document.getElementById("ver").innerHTML = "v1";
+
+//script
 	    (function color() {
 setTimeout(function(){
 var cycle;
