@@ -1,7 +1,7 @@
 (function color() {
 setTimeout(function(){
     var cycle = 0;
-	if (cycle == 0) {
+	if (cycle == 1) {
 		    var str = document.getElementById("rainbow").innerHTML;
     var result = str.fontcolor("red");
     document.getElementById("rainbow").innerHTML = result;
