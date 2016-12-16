@@ -2,12 +2,13 @@
 var cycle = new int();
 (function it() {
 setTimeout(function(){
-    document.getElementById("it").innerHTML = cycle;
+	var cycle;
+    document.getElementById("it").innerHTML = cycle.toString();
     cycle = cycle + 1;
      }, 1); 
 })();
 //version
-document.getElementById("ver").innerHTML = "v1";
+document.getElementById("ver").innerHTML = "v2";
 
 //script
 	    (function color() {
