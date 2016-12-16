@@ -1,5 +1,4 @@
 //iteration
-var cycle = new int();
 (function it() {
 setTimeout(function(){
 	var cycle;
@@ -8,7 +7,11 @@ setTimeout(function(){
      }, 1); 
 })();
 //version
-document.getElementById("ver").innerHTML = "v2";
+(function it() {
+setTimeout(function(){
+	document.getElementById("ver").innerHTML = "v3";
+     }, 1); 
+})();
 
 //script
 	    (function color() {
