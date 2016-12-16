@@ -1,4 +1,12 @@
+red();
 function red() {
+setTimeout(function(){
+    var str = document.getElementById("rainbow").innerHTML;
+    var result = str.fontcolor("red");
+    document.getElementById("rainbow").innerHTML = result;
+     }, 1); 
+}
+/*function red() {
 setTimeout(function(){
     var str = document.getElementById("rainbow").innerHTML;
     var result = str.fontcolor("red");
@@ -13,7 +21,7 @@ setTimeout(function(){
      }, 1); 
 	 
 }
-/*function yellow() {
+function yellow() {
 setTimeout(function(){
     var str = document.getElementById("bj").innerHTML;
     var result = str.fontcolor("yellow");
