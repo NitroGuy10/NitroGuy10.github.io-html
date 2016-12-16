@@ -1,11 +1,14 @@
-red();
-function red() {
+(function color() {
 setTimeout(function(){
-    var str = document.getElementById("rainbow").innerHTML;
+    var cycle = 0;
+	if (cycle == 0) {
+		    var str = document.getElementById("rainbow").innerHTML;
     var result = str.fontcolor("red");
     document.getElementById("rainbow").innerHTML = result;
+	}
+
      }, 1); 
-}
+})();
 /*function red() {
 setTimeout(function(){
     var str = document.getElementById("rainbow").innerHTML;
