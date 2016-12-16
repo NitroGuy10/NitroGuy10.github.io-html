@@ -3,9 +3,9 @@
 setTimeout(function(){
 var cycle;
     var color;
-	if (cycle == 1) {}
+	if (cycle > 5000) {color = "red"}
     var str = document.getElementById("rainbow").innerHTML;
-    var result = str.fontcolor("red");
+    var result = str.fontcolor(color);
     document.getElementById("rainbow").innerHTML = result;
     cycle = cycle + 1;
      }, 1); 
