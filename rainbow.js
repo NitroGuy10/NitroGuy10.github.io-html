@@ -1,5 +1,5 @@
 //iteration
-var cycle;
+var cycle = new int();
 (function it() {
 setTimeout(function(){
     document.getElementById("it").innerHTML = cycle;
