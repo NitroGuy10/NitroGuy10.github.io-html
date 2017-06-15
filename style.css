@@ -1,0 +1,42 @@
+@font-face {
+  font-family: sm256;
+  src: url(SuperMario256.ttf);
+  /* http://www.dafont.com/super-mario-256.font */
+}
+body {
+	text-align: center;
+	font-size: 2vw;
+	font-family: Arial, sans-serif;
+	margin: 0px auto;
+}
+img {
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
+}
+#calc {
+	background-color: #0066ff;
+}
+#dodge3 {
+	background-color: #99ff99;
+}
+#jumpy {
+	background-color: #99ccff;
+}
+#smiley {
+	background-color: #ffc0cb;
+}
+#links {
+	background-color: #00b33c;
+}
+h1 {
+	font-family: sm256, Impact, Arial, sans-serif;
+	font-size: 10vw;
+	line-height: 0px;
+}
+h2 {
+	font-family: Impact, Arial, sans-serif;
+	font-size: 3vw;
+}
+.section{
+  padding: 0.1px;
+  padding-bottom: 20px;
+}
