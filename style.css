@@ -40,3 +40,11 @@ h2 {
   padding: 0.1px;
   padding-bottom: 20px;
 }
+@media only screen and (min-width: 768px) {
+	h2 {
+		font-size: 8vw;
+	}
+	img {
+		width: 50%;
+	}
+}
